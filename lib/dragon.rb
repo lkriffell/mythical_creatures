@@ -9,7 +9,7 @@ class Dragon
   end
 
   def hungry?
-    @food_eaten < 4
+    @food_eaten < 3
   end
 
   def eat
